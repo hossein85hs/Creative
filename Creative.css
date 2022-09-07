@@ -1,0 +1,223 @@
+html , body{
+    height: 100%;
+    width: 100%;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+h1 , h2 , h3 , h4 , h5 , h6{
+    font-family: "mer";
+}
+a{
+    color: rgb(209, 208, 208);
+    text-decoration: none;
+}
+@font-face {
+    font-family: mer;
+    src: url(merriweather-sans.regular.ttf);
+}
+.navbar{
+    width: 100%;
+    background-color: transparent;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%); 
+    position: fixed;
+    z-index: 10;
+
+}
+.navstart{
+    margin-left: 20rem;
+    padding-top: 0.90rem;
+    padding-bottom: 0.90rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+a:hover{
+    color: coral;
+}
+.navlink{
+    margin-right: 20rem;
+    display: flex;
+    gap: 2rem;
+    font-weight: 600;
+}
+.hdbg{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(assets/img/bg-masthead.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.hdtx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    
+}
+.hdh1{
+    margin-top: 20rem;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: #fff;
+}
+.hdline{
+    height: 0.3rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+.hdp{
+    color: rgb(198, 202, 206);
+    font-size: 1.3rem;
+}
+.hdbtn{
+    padding: 1.1rem 2rem;
+    border-radius: 40px;
+    margin-top: 2rem;
+    background-color: #f4623a;
+    border:1px solid #f4623a;
+    color: #fff;
+    font-weight: 500;
+}
+.hdbtn:hover{
+    background-color: #bd5032;
+    border: 1px solid #bd5032;
+    transition: all 0.5s;
+}
+.infobg{
+    background-color: #f4623a;
+    height: 477px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    flex-direction: column;
+    text-align: center;
+}
+.infoline{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #fff;
+    opacity: 1;
+}
+.infotx{
+    color: rgb(240, 231, 231);
+    font-size: 1.1rem;
+}
+.infobtn{
+    padding: 1rem 2rem;
+    border-radius: 35px;
+    border: 1px solid #fff;
+    font-weight: 500;
+}
+.sech2{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.seclogo{
+    font-size: 2.5rem;
+    color: #f4623a;
+
+}
+.secgap{
+    gap: 5rem;
+    padding-bottom: 7rem;
+}
+.img{
+    background-color: #f4623a;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    z-index: 3;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    transition: all 0.5s;
+}
+.img:hover{
+    opacity: 0.9
+}
+.project-category{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.project-name{
+    font-size: 1.2rem;
+}
+.project-box{
+    width: 621.33px;
+    height: 334.55px;
+}
+.py-6{
+    padding-bottom: 8rem;
+    padding-top: 8rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.download-btn{
+    border-radius: 40px;
+    padding: 1.25rem 2.25rem;
+    border: aliceblue;
+    font-weight: 500;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
+.form{
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+    flex-direction: column;
+
+}
+.formline{
+height: 0.2rem;
+width: 3.25rem;
+margin: 1.5rem auto;
+background-color: #f4623a;
+opacity: 1;
+border: 1px solid #f4623a;
+}
+.input-name{
+    width: 37rem;
+    height: 3.5rem;
+    font-size: 1.1rem;
+}
+.form-text{
+    font-size: 1.1rem;
+}
+.bg-nareng{
+    background-color: #f4623a;
+    border: 1px solid #f4623a;
+}
+.disabled{
+    pointer-events: none;
+    opacity: 0.65;
+}
+.phone{
+    font-size: 2rem;
+    color: rgb(107, 107, 107);
+}
+.bg-ft{
+    padding: 2.5rem;
+}
+.textft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
